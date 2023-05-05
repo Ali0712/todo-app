@@ -24,7 +24,7 @@ function App() {
     })
   }
 
-  const toggleTodo = (id, completed) => {
+  const toggleTodo = (id) => {
 
     let a = document.getElementById(id)
     a.classList.add('cross')
