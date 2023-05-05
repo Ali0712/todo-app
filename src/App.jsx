@@ -36,7 +36,6 @@ function App() {
 
         return todo
       })
-
   })
 }
   const deleteTodo = (id) => {
